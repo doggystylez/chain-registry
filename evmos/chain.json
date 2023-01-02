@@ -46,6 +46,7 @@
     "ibc_go_version": "5.2.0",
     "genesis": {
       "genesis_url": "https://archive.evmos.org/mainnet/genesis.json"
+    "mev_tendermint_version": "v0.34.22-mev.14"
     }
   },
   "peers": {
