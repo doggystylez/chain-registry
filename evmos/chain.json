@@ -46,7 +46,8 @@
     },
     "genesis": {
       "genesis_url": "https://archive.evmos.org/mainnet/genesis.json"
-    }
+    },
+    "mev_tendermint_version": "v0.34.24-mev.14"
   },
   "peers": {
     "seeds": [

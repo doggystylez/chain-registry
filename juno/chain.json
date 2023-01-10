@@ -39,7 +39,8 @@
     "cosmwasm_enabled": true,
     "genesis": {
       "genesis_url": "https://download.dimi.sh/juno-phoenix2-genesis.tar.gz"
-    }
+    },
+    "mev_tendermint_version": "v0.34.21-mev.14"
   },
   "peers": {
     "seeds": [
