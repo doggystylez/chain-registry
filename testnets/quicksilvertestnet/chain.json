@@ -1,0 +1,50 @@
+{
+  "$schema": "../chain.schema.json",
+  "chain_name": "quicksilver",
+  "status": "live",
+  "network_type": "testnet",
+  "pretty_name": "Quicksilver",
+  "chain_id": "innuendo-4",
+  "daemon_name": "quicksilverd",
+  "node_home": "$HOME/.quicksilverd",
+  "bech32_prefix": "quick",
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "uqck"
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "uqck"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/ingenuity-build/quicksilver",
+    "recommended_version": "v1.3.0",
+    "compatible_versions": [
+      "v1.3.0"
+    ],
+    "cosmos_sdk_version": "0.46",
+    "tendermint_version": "0.34",
+    "cosmwasm_version": "0.29",
+    "cosmwasm_enabled": true,
+    "ibc_go_version": "5.2.0",
+    "genesis": {
+      "genesis_url": "https://github.com/ingenuity-build/testnets/raw/main/innuendo/genesis.json"
+    }
+  },
+  "peers": {
+    "seeds": []
+  },
+  "apis": {
+    "rpc": [],
+    "rest": [],
+    "grpc": []
+  },
+  "explorers": []
+}
