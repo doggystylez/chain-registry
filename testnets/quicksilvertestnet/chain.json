@@ -42,7 +42,12 @@
     "seeds": []
   },
   "apis": {
-    "rpc": [],
+    "rpc": [
+      {
+        "address": "https://quicksilver-testnet-rpc.polkachu.com",
+        "provider": "Polkachu"
+      }
+    ],
     "rest": [],
     "grpc": []
   },
