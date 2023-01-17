@@ -163,6 +163,10 @@
   "apis": {
     "rpc": [
       {
+        "address": "https://rpc.evmos.kingnodes.com",
+        "provider": "kingnodes"
+      },
+      {
         "address": "https://rpc-evmos.ecostake.com",
         "provider": "ecostake"
       },
@@ -249,6 +253,10 @@
     ],
     "rest": [
       {
+        "address": "https://api.evmos.kingnodes.com",
+        "provider": "kingnodes"
+      },
+      {
         "address": "https://rest-evmos.ecostake.com",
         "provider": "ecostake"
       },
@@ -334,6 +342,10 @@
       }
     ],
     "grpc": [
+      {
+        "address": "https://grpc.evmos.kingnodes.com",
+        "provider": "kingnodes"
+      },
       {
         "address": "https://grpc.bd.evmos.org:9090",
         "provider": "evmos.org"
