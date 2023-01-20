@@ -25,9 +25,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/ingenuity-build/quicksilver",
-    "recommended_version": "v1.3.0",
+    "recommended_version": "v1.3.1",
     "compatible_versions": [
-      "v1.3.0"
+      "v1.3.1"
     ],
     "cosmos_sdk_version": "0.46",
     "tendermint_version": "0.34",
