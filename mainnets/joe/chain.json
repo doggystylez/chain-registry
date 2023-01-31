@@ -14,7 +14,7 @@
   "fees": {
     "fee_tokens": [
       {
-        "denom": "ujoe",
+        "denom": "ujoe"
       }
     ]
   },
@@ -48,8 +48,8 @@
     "rpc": [
       {
         "address": "https://joe-rpc.polkachu.com",
-        "provider": "Polkachu""
-      },
+        "provider": "Polkachu"
+      }
     ],
     "rest": [],
     "grpc": []
