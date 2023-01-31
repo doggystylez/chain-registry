@@ -4,7 +4,7 @@
   "status": "live",
   "network_type": "testnet",
   "pretty_name": "Quicksilver",
-  "chain_id": "innuendo-4",
+  "chain_id": "innuendo-5",
   "daemon_name": "quicksilverd",
   "node_home": "$HOME/.quicksilverd",
   "bech32_prefix": "quick",
