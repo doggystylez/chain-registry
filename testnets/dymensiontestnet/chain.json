@@ -5,7 +5,7 @@
   "network_type": "testnet",
   "pretty_name": "Dymension Testnet",
   "chain_id": "35-C",
-  "bech32_prefix": "dymension",
+  "bech32_prefix": "dym",
   "daemon_name": "dymd",
   "node_home": "$HOME/.dymension",
   "key_algos": [
