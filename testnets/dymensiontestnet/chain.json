@@ -1,0 +1,52 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_name": "dymensiontestnet",
+  "status": "live",
+  "network_type": "testnet",
+  "pretty_name": "Dymension Testnet",
+  "chain_id": "35-C",
+  "bech32_prefix": "dymension",
+  "daemon_name": "dymd",
+  "node_home": "$HOME/.dymension",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "udym"
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "udym"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/dymensionxyz/dymension",
+    "recommended_version": "v0.2.0-beta",
+    "compatible_versions": [
+       "v0.2.0-beta"
+    ],
+    "cosmos_sdk_version": "0.45",
+    "tendermint_version": "0.34",
+    "ibc_go_version": "3.4.0",
+    "genesis": {
+      "genesis_url": "tbd"
+    }
+  },
+  "peers": {
+    "seeds": [],
+    "persistent_peers": []
+  },
+  "apis": {
+    "rpc": [],
+    "rest": [],
+    "grpc": []
+  },
+  "explorers": []
+}
