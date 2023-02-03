@@ -1,10 +1,6 @@
 {
   "$schema": "../chain.schema.json",
-<<<<<<< HEAD
-  "chain_name": "quicksilver",
-=======
   "chain_name": "quicksilvertestnet",
->>>>>>> main
   "status": "live",
   "network_type": "testnet",
   "pretty_name": "Quicksilver",

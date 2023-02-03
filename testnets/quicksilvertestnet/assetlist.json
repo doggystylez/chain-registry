@@ -1,10 +1,6 @@
 {
   "$schema": "../assetlist.schema.json",
-<<<<<<< HEAD
-  "chain_name": "quicksilver",
-=======
   "chain_name": "quicksilvertestnet",
->>>>>>> main
   "assets": [
     {
       "description": "QCK - native token of Quicksilver",
