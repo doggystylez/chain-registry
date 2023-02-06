@@ -4,7 +4,7 @@
   "status": "live",
   "network_type": "testnet",
   "pretty_name": "Juno Testnet",
-  "chain_id": "uni-5",
+  "chain_id": "uni-6",
   "bech32_prefix": "juno",
   "daemon_name": "junod",
   "node_home": "$HOME/.juno",
@@ -31,17 +31,17 @@
   },
   "codebase": {
     "git_repo": "https://github.com/CosmosContracts/juno",
-    "recommended_version": "v12.0.0-alpha",
+    "recommended_version": "v12.0.0-beta",
     "compatible_versions": [
-       "v12.0.0-alpha"
+       "v12.0.0-beta"
     ],
     "cosmos_sdk_version": "0.45",
     "tendermint_version": "0.34",
-    "cosmwasm_version": "0.30",
+    "cosmwasm_version": "0.29",
     "cosmwasm_enabled": true,
-    "ibc_go_version": "4.2.0",
+    "ibc_go_version": "3.3.1",
     "genesis": {
-      "genesis_url": "https://raw.githubusercontent.com/CosmosContracts/testnets/main/uni-5/genesis.json"
+      "genesis_url": "https://raw.githubusercontent.com/CosmosContracts/testnets/main/uni-6/genesis.json"
     }
   },
   "peers": {
