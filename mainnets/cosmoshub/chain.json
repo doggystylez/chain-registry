@@ -286,6 +286,10 @@
       {
         "address": "https://rpc.cosmos.bh.rocks",
         "provider": "BlockHunters \uD83C\uDFAF"
+      },
+      {
+        "address": "https://cosmos-rpc.rockrpc.net",
+        "provider": "RockawayX Infra"
       }
     ],
     "rest": [
@@ -442,6 +446,11 @@
       "kind": "unichain",
       "url": "https://unicha.in/cosmos",
       "tx_page": "https://unicha.in/cosmos/transaction/${txHash}"
+    },
+    {
+      "kind": "TC Network",
+      "url": "https://explorer.tcnetwork.io/cosmoshub",
+      "tx_page": "https://explorer.tcnetwork.io/cosmoshub/transaction/${txHash}"
     }
   ]
 }
