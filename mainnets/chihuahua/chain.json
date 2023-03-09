@@ -30,13 +30,7 @@
   "codebase": {
     "git_repo": "https://github.com/ChihuahuaChain/chihuahua/",
     "recommended_version": "v4.2.1",
-<<<<<<< HEAD:mainnets/chihuahua/chain.json
     "compatible_versions": ["v4.2.1"],
-=======
-    "compatible_versions": [
-      "v4.2.1"
-    ],
->>>>>>> mirror:chihuahua/chain.json
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/ChihuahuaChain/chihuahua/main/mainnet/genesis.json"
     },
