@@ -17,10 +17,10 @@
     "fee_tokens": [
       {
         "denom": "ujuno",
-        "fixed_min_gas_price": 0.0025,
-        "low_gas_price": 0.03,
-        "average_gas_price": 0.04,
-        "high_gas_price": 0.05
+        "fixed_min_gas_price": 0.001,
+        "low_gas_price": 0.001,
+        "average_gas_price": 0.0025,
+        "high_gas_price": 0.004
       }
     ]
   },
@@ -183,6 +183,10 @@
       {
         "address": "http://rpc-juno.freshstaking.com:39657",
         "provider": "FreshSTAKING"
+      },
+      {
+        "address": "https://rpc-juno.architectnodes.com",
+        "provider": "Architect Nodes"
       }
     ],
     "rest": [
@@ -241,6 +245,10 @@
       {
         "address": "https://juno-api.stakeandrelax.net",
         "provider": "Stake&Relax Validator 🦥"
+      },
+      {
+        "address": "https://rest-juno.architectnodes.com",
+        "provider": "Architect Nodes"
       }
     ],
     "grpc": [
@@ -267,6 +275,10 @@
       {
         "address": "http://juno-grpc.stakeandrelax.net:12690",
         "provider": "Stake&Relax Validator 🦥"
+      },
+      {
+        "address": "grpc-juno.architectnodes.com:1443",
+        "provider": "Architect Nodes"
       }
     ]
   },

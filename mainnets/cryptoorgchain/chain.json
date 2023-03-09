@@ -12,6 +12,16 @@
   "fees": {
     "fee_tokens": [
       {
+        "denom": "basecro",
+        "low_gas_price": 0.025,
+        "average_gas_price": 0.03,
+        "high_gas_price": 0.04
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
         "denom": "basecro"
       }
     ]
@@ -160,6 +170,10 @@
       {
         "address": "https://cryptocom-api.polkachu.com",
         "provider": "Polkachu"
+      },
+      {
+        "address": "https://rest-cryptoorgchain.ecostake.com",
+        "provider": "ecostake"
       }
     ],
     "grpc": [

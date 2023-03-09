@@ -16,7 +16,17 @@
     "fee_tokens": [
       {
         "denom": "ulumen",
-        "fixed_min_gas_price": 0.0025
+        "fixed_min_gas_price": 0.0025,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "ulumen"
       }
     ]
   },
@@ -52,6 +62,10 @@
       {
         "address": "https://lumenx-rpc.enodex.lol/",
         "provider": "Enodex"        
+      },
+      {
+        "address": "https://rpc-lumenx.comunitynode.my.id",
+        "provider": "ComunityNode"        
       }
     ],
     "rest": [
@@ -66,7 +80,11 @@
       {
         "address": "https://lumenx-api.enodex.lol",
         "provider": "Enodex"
-      }        
+      },
+       {
+        "address": "https://api-lumenx.comunitynode.my.id",
+        "provider": "ComunityNode"
+      }
     ],
     "grpc": [
       {
@@ -85,6 +103,11 @@
       "kind": "Enodex",
       "url": "https://explorer.enodex.lol/lumenx",
       "tx_page": "https://explorer.enodex.lol/lumenx/tx/${txHash}"
+    },
+    {
+      "kind": "ComunityNode",
+      "url": "https://explorer.comunitynode.my.id/lumenx",
+      "tx_page": "https://explorer.comunitynode.my.id/lumenx/tx/${txHash}"
     }
   ]
 }
