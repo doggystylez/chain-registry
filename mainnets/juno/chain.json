@@ -117,6 +117,10 @@
         "provider": "WhisperNode🤐"
       },
       {
+        "address": "https://rpc-juno.goldenratiostaking.net",
+        "provider": "Golden Ratio Staking"
+      },
+      {
         "address": "https://rpc-juno.itastakers.com",
         "provider": "itastakers"
       },
@@ -249,6 +253,10 @@
       {
         "address": "https://rest-juno.architectnodes.com",
         "provider": "Architect Nodes"
+      },
+      {
+        "address": "https://juno-mainnet-lcd.autostake.net:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
       }
     ],
     "grpc": [
@@ -279,6 +287,10 @@
       {
         "address": "grpc-juno.architectnodes.com:1443",
         "provider": "Architect Nodes"
+      },
+      {
+        "address": "juno-mainnet-grpc.autostake.net:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
       }
     ]
   },
