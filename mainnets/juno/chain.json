@@ -44,7 +44,7 @@
     "genesis": {
       "genesis_url": "https://download.dimi.sh/juno-phoenix2-genesis.tar.gz"
     },
-    "mev_tendermint_version": "v0.34.24-mev.15"
+    "mev_tendermint_version": "v0.34.26-mev.15"
   },
   "peers": {
     "seeds": [
