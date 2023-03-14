@@ -159,6 +159,10 @@
       {
         "address": "http://rpc-cosmoshub.freshstaking.com:26657",
         "provider": "FreshSTAKING"
+      },
+      {
+        "address": "https://cosmoshub.rpc.interchain.ivaldilabs.xyz",
+        "provider": "ivaldilabs"
       }
     ],
     "rest": [
@@ -201,6 +205,10 @@
       {
         "address": "https://rest-cosmoshub.ecostake.com",
         "provider": "ecostake"
+      },
+      {
+        "address": "https://cosmoshub.rest.interchain.ivaldilabs.xyz",
+        "provider": "ivaldilabs"
       }
     ],
     "grpc": [
@@ -227,6 +235,10 @@
       {
         "address": "cosmoshub.grpc.stakin-nodes.com:443",
         "provider": "Stakin"
+      },
+      {
+        "address": "cosmoshub.grpc.interchain.ivaldilabs.xyz:443",
+        "provider": "ivaldilabs"
       }
     ]
   },
