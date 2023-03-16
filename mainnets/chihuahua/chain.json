@@ -38,7 +38,8 @@
     "tendermint_version": "0.34",
     "cosmwasm_version": "0.30",
     "cosmwasm_enabled": true,
-    "ibc_go_version": "4.2.0"
+    "ibc_go_version": "4.2.0",
+    "cosmwasm_enabled": true
   },
   "peers": {
     "seeds": [
