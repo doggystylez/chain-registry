@@ -4,7 +4,7 @@
   "status": "live",
   "network_type": "testnet",
   "pretty_name": "Quasar Testnet",
-  "chain_id": "qsr-questnet-04",
+  "chain_id": "quasar-1",
   "bech32_prefix": "quasar",
   "daemon_name": "quasarnoded",
   "node_home": "$HOME/.quasarnoded",
@@ -103,16 +103,8 @@
   "apis": {
     "rpc": [
       {
-        "address": "https://quasar-testnet-rpc.polkachu.com/",
+        "address": "https://quasar-rpc.polkachu.com",
         "provider": "Polkachu"
-      },
-      {
-        "address": "https://questnet.quasar-finance.rhinostake.com/",
-        "provider": "Rhino Stake"
-      },
-      {
-        "address": "https://quasar-testnet-rpc.swiss-staking.ch",
-        "provider": "Swiss Staking"
       }
     ],
     "rest": [
