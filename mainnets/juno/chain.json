@@ -38,7 +38,10 @@
       "v13.0.0"
     ],
     "cosmos_sdk_version": "0.45",
-    "tendermint_version": "0.34",
+    "consensus": {
+      "type": "tendermint",
+      "version": "0.34"
+    },
     "cosmwasm_version": "0.30",
     "cosmwasm_enabled": true,
     "genesis": {
@@ -169,7 +172,7 @@
         "provider": "BlockHunters 🎯"
       },
       {
-        "address": "https://rpc.juno.kingnodes.com",
+        "address": "https://juno.kingnodes.com",
         "provider": "kingnodes 👑"
       },
       {
@@ -247,7 +250,7 @@
         "provider": "BlockHunters 🎯"
       },
       {
-        "address": "https://api.juno.kingnodes.com",
+        "address": "https://juno.kingnodes.com",
         "provider": "kingnodes 👑"
       },
       {
@@ -293,7 +296,7 @@
         "provider": "Stakin"
       },
       {
-        "address": "grpc.juno.kingnodes.com:443",
+        "address": "grpc-juno.kingnodes.com:443",
         "provider": "kingnodes 👑"
       },
       {

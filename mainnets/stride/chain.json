@@ -39,6 +39,12 @@
     ],
     "cosmos_sdk_version": "0.46",
     "tendermint_version": "0.34",
+    "consensus": {
+      "type": "tendermint",
+      "version": "0.34"
+    },
+    "cosmwasm_version": "0.29",
+    "cosmwasm_enabled": true,
     "ibc_go_version": "5.1.0",
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/Stride-Labs/testnet/main/mainnet/genesis.json"
@@ -172,6 +178,10 @@
       {
         "address": "https://stride.rpc.interchain.ivaldilabs.xyz",
         "provider": "ivaldilabs"
+      },
+      {
+        "address": "https://stride-rpc.cosmosrescue.com",
+        "provider": "cosmosrescue"
       }
     ],
     "rest": [
@@ -230,6 +240,10 @@
       {
         "address": "https://stride.rest.interchain.ivaldilabs.xyz",
         "provider": "ivaldilabs"
+      },
+      {
+        "address": "https://stride-api.cosmosrescue.com",
+        "provider": "cosmosrescue"
       }
     ],
     "grpc": [
@@ -252,6 +266,10 @@
       {
         "address": "stride.grpc.interchain.ivaldilabs.xyz:443",
         "provider": "ivaldilabs"
+      },
+      {
+        "address": "juno-grpc.cosmosrescue.com:9090",
+        "provider": "cosmosrescue"
       }
     ]
   },
