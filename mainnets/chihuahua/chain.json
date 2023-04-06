@@ -14,9 +14,9 @@
       {
         "denom": "uhuahua",
         "fixed_min_gas_price": 0,
-        "low_gas_price": 1.0,
-        "average_gas_price": 5.0,
-        "high_gas_price": 10.0
+        "low_gas_price": 1,
+        "average_gas_price": 5,
+        "high_gas_price": 10
       }
     ]
   },
@@ -39,7 +39,17 @@
     "cosmwasm_version": "0.30",
     "cosmwasm_enabled": true,
     "ibc_go_version": "4.2.0",
-    "cosmwasm_enabled": true
+    "cosmwasm_enabled": true,
+    "versions": [
+      {
+        "name": "v4.2.1",
+        "recommended_version": "v4.2.1",
+        "compatible_versions": [
+          "v4.2.1"
+        ],
+        "cosmwasm_enabled": true
+      }
+    ]
   },
   "peers": {
     "seeds": [
