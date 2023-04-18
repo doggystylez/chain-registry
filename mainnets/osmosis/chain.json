@@ -18,8 +18,8 @@
     "fee_tokens": [
       {
         "denom": "uosmo",
-        "fixed_min_gas_price": 0,
-        "low_gas_price": 0,
+        "fixed_min_gas_price": 0.0025,
+        "low_gas_price": 0.0025,
         "average_gas_price": 0.025,
         "high_gas_price": 0.04
       }
@@ -251,7 +251,7 @@
         "provider": "Stakin"
       },
       {
-        "address": "https://rpc.osmosis.goldenratiostaking.net",
+        "address": "https://rpc-osmosis.goldenratiostaking.net",
         "provider": "Golden Ratio Staking"
       },
       {
@@ -291,6 +291,10 @@
       {
         "address": "https://rest-osmosis.ecostake.com",
         "provider": "ecostake"
+      },
+      {
+        "address": "https://rest-osmosis.goldenratiostaking.net",
+        "provider": "Golden Ratio Staking"
       },
       {
         "address": "https://api-osmosis-ia.cosmosia.notional.ventures",

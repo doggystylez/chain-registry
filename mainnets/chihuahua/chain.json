@@ -125,7 +125,7 @@
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
-        "address": "https://rpc.chihuahua.goldenratiostaking.net",
+        "address": "https://rpc-chihuahua.goldenratiostaking.net",
         "provider": "Golden Ratio Staking"
       },
       {
@@ -187,8 +187,16 @@
         "provider": "WhisperNode🤐"
       },
       {
+        "address": "https://rest-chihuahua.goldenratiostaking.net",
+        "provider": "Golden Ratio Staking"
+      },
+      {
         "address": "https://chihuahua-mainnet-lcd.autostake.com:443",
         "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "address": "http://chihuahua.api.staking-explorer.com",
+        "provider": "chihuahua.staking-explorer.com"
       }
     ],
     "grpc": [
