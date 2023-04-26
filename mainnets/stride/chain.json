@@ -33,7 +33,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/Stride-Labs/stride",
-    "recommended_version": "v8.0.0",
+    "recommended_version": "v9.0.0",
     "compatible_versions": [
       "v8.0.0"
     ],
@@ -51,10 +51,10 @@
     },
     "versions": [
       {
-        "name": "v8.0.0",
-        "recommended_version": "v8.0.0",
+        "name": "v9.0.0",
+        "recommended_version": "v9.0.0",
         "compatible_versions": [
-          "v8.0.0"
+          "v9.0.0"
         ],
         "cosmos_sdk_version": "0.46",
         "consensus": {
