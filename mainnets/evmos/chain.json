@@ -83,6 +83,10 @@
       }
     ]
   },
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
+  },
   "peers": {
     "seeds": [
       {
@@ -258,6 +262,10 @@
       {
         "address": "https://evmos.api.onfinality.io/public",
         "provider": "OnFinality"
+      },
+      {
+        "address": "https://evmos-rpc.publicnode.com",
+        "provider": "PublicNode (by Allnodes)"
       }
     ],
     "rest": [
@@ -332,6 +340,10 @@
       {
         "address": "https://evmos.rest.interchain.ivaldilabs.xyz",
         "provider": "ivaldilabs"
+      },
+      {
+        "address": "https://evmos-rest.publicnode.com",
+        "provider": "PublicNode (by Allnodes)"
       }
     ],
     "grpc": [
@@ -378,6 +390,10 @@
       {
         "address": "evmos.grpc.interchain.ivaldilabs.xyz:443",
         "provider": "ivaldilabs"
+      },
+      {
+        "address": "https://evmos-grpc.publicnode.com",
+        "provider": "PublicNode (by Allnodes)"
       }
     ],
     "evm-http-jsonrpc": [
@@ -420,6 +436,10 @@
       {
         "address": "https://evmosevm.rpc.stakin-nodes.com",
         "provider": "Stakin"
+      },
+      {
+        "address": "https://evmos-evm.publicnode.com",
+        "provider": "PublicNode (by Allnodes)"
       }
     ]
   },

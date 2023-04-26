@@ -67,6 +67,10 @@
       }
     ]
   },
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+  },
   "peers": {
     "seeds": [
       {
@@ -123,6 +127,11 @@
         "id": "1da54d20c7339713f1d6d28dd2117087dd33d0ca",
         "address": "cosmos-seed.icycro.org:26656",
         "provider": "IcyCRO 🧊"
+      },
+      {
+        "id": "a79cd3dbdd4a296b76d7d6420121ddd7e12b02ca",
+        "address": "cosmos-peer.panthea.eu:27656",
+        "provider": "Panthea EU"
       }
     ]
   },
@@ -211,6 +220,10 @@
       {
         "address": "https://cosmos.rpc.silknodes.io",
         "provider": "Silk Nodes"
+      },
+      {
+        "address": "https://cosmos-rpc.publicnode.com",
+        "provider": "PublicNode (by Allnodes)"
       }
     ],
     "rest": [
@@ -273,6 +286,10 @@
       {
         "address": "https://cosmos.api.silknodes.io",
         "provider": "Silk Nodes"
+      },
+      {
+        "address": "https://cosmos-rest.publicnode.com",
+        "provider": "PublicNode (by Allnodes)"
       }
     ],
     "grpc": [
@@ -307,6 +324,10 @@
       {
         "address": "https://grpc.cosmos.nodestake.top",
         "provider": "NodeStake"
+      },
+      {
+        "address": "https://cosmos-grpc.publicnode.com",
+        "provider": "PublicNode (by Allnodes)"
       }
     ]
   },
