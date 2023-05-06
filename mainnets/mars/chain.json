@@ -106,7 +106,7 @@
       },
       {
         "id": "400f3d9e30b69e78a7fb891f60d76fa3c73f0ecc",
-        "address": "mars.rpc.kjnodes.com:45659",
+        "address": "mars.rpc.kjnodes.com:14559",
         "provider": "kjnodes"
       },
       {
@@ -141,10 +141,6 @@
       {
         "address": "https://mars-mainnet-rpc.autostake.com:443",
         "provider": "AutoStake 🛡️ Slash Protected"
-      },
-      {
-        "address": "https://rpc-mars.nodeist.net:443",
-        "provider": "Nodeist"
       },
       {
         "address": "https://rpc-mars.goldenratiostaking.net",
@@ -199,10 +195,6 @@
       {
         "address": "https://mars-mainnet-lcd.autostake.com:443",
         "provider": "AutoStake 🛡️ Slash Protected"
-      },
-      {
-        "address": "https://api-mars.nodeist.net:443",
-        "provider": "Nodeist"
       },
       {
         "address": "https://mars-api.polkachu.com",
@@ -267,7 +259,7 @@
         "provider": "genznodes"
       },
       {
-        "address": "mars.grpc.kjnodes.com:45090",
+        "address": "mars.grpc.kjnodes.com:14590",
         "provider": "kjnodes"
       },
       {
@@ -288,12 +280,6 @@
       "url": "https://explorer.nodestake.top/mars",
       "tx_page": "https://explorer.nodestake.top/mars/transactions/${txHash}",
       "account_page": "https://explorer.nodestake.top/mars/account/${accountAddress}"
-    },
-    {
-      "kind": "Nodeist Explorer",
-      "url": "https://exp.nodeist.net/m-mars",
-      "tx_page": "https://exp.nodeist.net/m-mars/tx/${txHash}",
-      "account_page": "https://exp.nodeist.net/m-mars/account/${accountAddress}"
     },
     {
       "kind": "Nodes.Guru",

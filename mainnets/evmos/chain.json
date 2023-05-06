@@ -153,6 +153,11 @@
         "id": "27b6d74c8408e033e2e5a9e966a0d15782e33596",
         "address": "seeds.nethernode.xyz:13456",
         "provider": "carbonZERO🌲"
+      },
+      {
+        "id": "ac009a9564d3471852795b5d703095a1d4b6a3e1",
+        "address": "seed-evmos-01.stakeflow.io:1707",
+        "provider": "Genesis Lab"
       }
     ],
     "persistent_peers": [
@@ -175,6 +180,11 @@
         "id": "ebc272824924ea1a27ea3183dd0b9ba713494f83",
         "address": "evmos-mainnet-peer.autostake.com:26736",
         "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "id": "ac009a9564d3471852795b5d703095a1d4b6a3e1",
+        "address": "peer-evmos-01.stakeflow.io:1707",
+        "provider": "Genesis Lab"
       }
     ]
   },
@@ -270,10 +280,18 @@
       },
       {
         "address": "https://evmos-rpc.publicnode.com",
-        "provider": "PublicNode (by Allnodes)"
+        "provider": "Allnodes.com ⚡️ Nodes & Staking"
+      },
+      {
+        "address": "https://rpc-evmos-01.stakeflow.io",
+        "provider": "Genesis Lab"
       }
     ],
     "rest": [
+      {
+        "address": "https://evmos.kingnodes.com",
+        "provider": "kingnodes"
+      },
       {
         "address": "https://lcd-evmos.whispernode.com:443",
         "provider": "WhisperNode🤐"
@@ -344,7 +362,11 @@
       },
       {
         "address": "https://evmos-rest.publicnode.com",
-        "provider": "PublicNode (by Allnodes)"
+        "provider": "Allnodes.com ⚡️ Nodes & Staking"
+      },
+      {
+        "address": "https://api-evmos-01.stakeflow.io",
+        "provider": "Genesis Lab"
       }
     ],
     "grpc": [
@@ -394,7 +416,11 @@
       },
       {
         "address": "https://evmos-grpc.publicnode.com",
-        "provider": "PublicNode (by Allnodes)"
+        "provider": "Allnodes.com ⚡️ Nodes & Staking"
+      },
+      {
+        "address": "grpc-evmos-01.stakeflow.io:1702",
+        "provider": "Genesis Lab"
       }
     ],
     "evm-http-jsonrpc": [
@@ -440,7 +466,7 @@
       },
       {
         "address": "https://evmos-evm.publicnode.com",
-        "provider": "PublicNode (by Allnodes)"
+        "provider": "Allnodes.com ⚡️ Nodes & Staking"
       }
     ]
   },
@@ -488,6 +514,11 @@
       "kind": "tcnetwork",
       "url": "https://evmos.tcnetwork.io",
       "tx_page": "https://evmos.tcnetwork.io/transaction/${txHash}"
+    },
+    {
+      "kind": "Stakeflow",
+      "url": "https://stakeflow.io/evmos",
+      "account_page": "https://stakeflow.io/evmos/accounts/${accountAddress}"
     }
   ]
 }
