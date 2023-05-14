@@ -1,0 +1,26 @@
+name: Merge Mirror
+
+on:
+  push:
+    branches:
+      - mirror
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Attempt to merge mirror branch
+        run: |
+          git checkout doggy
+          git merge mirror || exit 0
+      - name: Create pull request
+        uses: devops-infra/action-pull-request@v0.5.5
+        with:
+          title: auto-merge mirror branch
+          branch: doggy
+          head: mirror
+          body: "**automated**"
+          token: ${{ secrets.GITHUB_TOKEN }}
+        if: ${{ steps.merge.outcome == 'failure' }}
