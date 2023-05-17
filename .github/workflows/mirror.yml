@@ -11,6 +11,7 @@ jobs:
       - name: Mirror commits
         run: |
           git remote add upstream https://github.com/cosmos/chain-registry
+          git fetch
           git fetch upstream
           git checkout mirror
           git pull upstream master
