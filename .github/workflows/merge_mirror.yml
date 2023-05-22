@@ -10,6 +10,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Attempt to merge mirror branch
         run: |
+          git fetch
           git checkout doggy
           git merge mirror || exit 0
       - name: Create pull request
