@@ -12,7 +12,7 @@ jobs:
         run: |
           git fetch
           git checkout doggy
-          git merge mirror || exit 0
+          git merge origin/mirror || exit 0
       - name: Create pull request
         uses: devops-infra/action-pull-request@v0.5.5
         with:
