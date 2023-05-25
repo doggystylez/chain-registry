@@ -36,9 +36,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/mars-protocol/hub",
-    "recommended_version": "v1.0.0",
+    "recommended_version": "v1.0.1",
     "compatible_versions": [
-      "v1.0.0"
+      "v1.0.1"
     ],
     "cosmos_sdk_version": "0.46.7",
     "consensus": {
@@ -57,11 +57,11 @@
     "versions": [
       {
         "name": "v1",
-        "tag": "v1.0.0",
+        "tag": "v1.0.1",
         "height": 0,
-        "recommended_version": "v1.0.0",
+        "recommended_version": "v1.0.1",
         "compatible_versions": [
-          "v1.0.0"
+          "v1.0.1"
         ],
         "cosmos_sdk_version": "0.46.7",
         "consensus": {
