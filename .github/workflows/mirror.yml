@@ -8,9 +8,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Mirror commits
         with:
           token: ${{ secrets.WF_TOKEN }}
+      - name: Mirror commits
         run: |
           git remote add upstream https://github.com/cosmos/chain-registry
           git fetch
