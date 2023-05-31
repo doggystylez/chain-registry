@@ -152,6 +152,11 @@
         "provider": "Cosmostation-2"
       },
       {
+        "id": "a7b4cf6f65138ba61518c2c45402da32dc8e28b7",
+        "address": "stride.peer.stavr.tech:21016",
+        "provider": "🔥STAVR🔥"
+      },
+      {
         "id": "b5f9fa874781f975687018ae559f0d952d3a2e24",
         "address": "52.52.208.179:26656",
         "provider": "Cosmostation-3"
@@ -189,6 +194,10 @@
       {
         "address": "https://rpc.stride.silentvalidator.com/",
         "provider": "silent"
+      },
+      {
+        "address": "http://stride.rpc.m.stavr.tech:21017",
+        "provider": "🔥STAVR🔥"
       },
       {
         "address": "https://stride.rpc.kjnodes.com",
@@ -247,6 +256,10 @@
       {
         "address": "http://api-stride.nodeist.net",
         "provider": "Nodeist"
+      },
+      {
+        "address": "https://stride.api.m.stavr.tech",
+        "provider": "🔥STAVR🔥"
       },
       {
         "address": "https://stride-api.lavenderfive.com/",
@@ -315,6 +328,10 @@
         "provider": "NODEJUMPER"
       },
       {
+        "address": "http://stride.grpc.m.stavr.tech:9986",
+        "provider": "🔥STAVR🔥"
+      },
+      {
         "address": "stride-mainnet-grpc.autostake.com:443",
         "provider": "AutoStake 🛡️ Slash Protected"
       },
@@ -354,6 +371,12 @@
       "url": "https://explorer.stride.zone/stride",
       "tx_page": "https://explorer.stride.zone/stride/tx/${txHash}",
       "account_page": "https://explorer.stride.zone/stride/account/${accountAddress}"
+    },
+    {
+      "kind": "🔥STAVR🔥 Explorer",
+      "url": "https://explorer.stavr.tech/stride",
+      "tx_page": "https://explorer.stavr.tech/stride/tx/${txHash}",
+      "account_page": "https://explorer.stavr.tech/stride/account/${accountAddress}"
     },
     {
       "kind": "mintscan",
