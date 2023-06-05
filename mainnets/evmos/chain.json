@@ -153,7 +153,7 @@
       {
         "id": "ac009a9564d3471852795b5d703095a1d4b6a3e1",
         "address": "seed-evmos-01.stakeflow.io:1707",
-        "provider": "Genesis Lab"
+        "provider": "Stakeflow"
       }
     ],
     "persistent_peers": [
@@ -180,7 +180,7 @@
       {
         "id": "ac009a9564d3471852795b5d703095a1d4b6a3e1",
         "address": "peer-evmos-01.stakeflow.io:1707",
-        "provider": "Genesis Lab"
+        "provider": "Stakeflow"
       }
     ]
   },
@@ -280,7 +280,11 @@
       },
       {
         "address": "https://rpc-evmos-01.stakeflow.io",
-        "provider": "Genesis Lab"
+        "provider": "Stakeflow"
+      },
+      {
+        "address": "https://evmos-rpc.theamsolutions.info",
+        "provider": "AM Solutions"
       }
     ],
     "rest": [
@@ -362,7 +366,11 @@
       },
       {
         "address": "https://api-evmos-01.stakeflow.io",
-        "provider": "Genesis Lab"
+        "provider": "Stakeflow"
+      },
+      {
+        "address": "https://evmos-api.theamsolutions.info",
+        "provider": "AM Solutions"
       }
     ],
     "grpc": [
@@ -416,7 +424,11 @@
       },
       {
         "address": "grpc-evmos-01.stakeflow.io:1702",
-        "provider": "Genesis Lab"
+        "provider": "Stakeflow"
+      },
+      {
+        "address": "https://evmos-grpc.theamsolutions.info ",
+        "provider": "AM Solutions"
       }
     ],
     "evm-http-jsonrpc": [
@@ -463,6 +475,10 @@
       {
         "address": "https://evmos-evm.publicnode.com",
         "provider": "Allnodes.com ⚡️ Nodes & Staking"
+      },
+      {
+       "address": "https://evmos-jsonrpc.theamsolutions.info",
+        "provider": "AM Solutions"
       }
     ]
   },

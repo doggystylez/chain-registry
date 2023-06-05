@@ -232,6 +232,10 @@
       {
         "address": "https://rpc.gitopia.nodexcapital.com",
         "provider": "⚡NodeX Validator⚡"
+      },
+      {
+        "address": "https://rpc.gitopia.silentvalidator.com",
+        "provider": "silent"
       }
     ],
     "rest": [
@@ -306,6 +310,10 @@
       {
         "address": "https://rest.gitopia.nodexcapital.com",
         "provider": "⚡NodeX Validator⚡"
+      },
+      {
+        "address": "https://api.gitopia.silentvalidator.com",
+        "provider": "silent"
       }
     ],
     "grpc": [
@@ -360,6 +368,10 @@
       {
         "address": "gitopia-grpc.stake-town.com:9090",
         "provider": "StakeTown"
+      },
+      {
+        "address": "grpc.gitopia.silentvalidator.com:443",
+        "provider": "silent"
       }
     ]
   },
@@ -399,6 +411,12 @@
       "url": "https://explorer.nodexcapital.com/gitopia",
       "tx_page": "https://explorer.nodexcapital.com/gitopia/tx/${txHash}",
       "account_page": "https://explorer.nodexcapital.com/gitopia/account/${accountAddress}"
+    },
+    {
+      "kind": "TC Network",
+      "url": "https://explorer.tcnetwork.io/gitopia",
+      "tx_page": "https://explorer.tcnetwork.io/gitopia/transaction/${txHash}",
+      "account_page": "https://explorer.tcnetwork.io/gitopia/account/${accountAddress}"
     }
   ]
 }
