@@ -69,9 +69,9 @@
       {
         "name": "v9",
         "height": 3396933,
-        "recommended_version": "v9.0.0",
+        "recommended_version": "v9.2.1",
         "compatible_versions": [
-          "v9.0.0"
+          "v9.0.0", "v9.2.1"
         ],
         "proposal": 202
       }
