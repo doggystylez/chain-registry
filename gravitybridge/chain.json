@@ -45,9 +45,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/Gravity-Bridge/Gravity-Bridge",
-    "recommended_version": "v1.9.1",
+    "recommended_version": "v1.10.0",
     "compatible_versions": [
-      "v1.9.0", "v1.9.1"
+	"v1.10.0"
     ],
     "binaries": {
       "linux/amd64": "https://github.com/Gravity-Bridge/Gravity-Bridge/releases/download/v1.9.1/gravity-linux-amd64"
