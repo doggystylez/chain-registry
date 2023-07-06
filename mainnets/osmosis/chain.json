@@ -107,14 +107,20 @@
   "codebase": {
     "git_repo": "https://github.com/osmosis-labs/osmosis",
     "recommended_version": "v15.1.2",
+    "compatible_versions": [
+      "v15.0.0",
+      "v15.1.0",
+      "v15.1.2",
+      "v15.2.0"
+    ],
     "binaries": {
-      "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.2.0/osmosisd-15.2.0-linux-amd64",
-      "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.2.0/osmosisd-15.2.0-linux-arm64"
+      "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.2.0/osmosisd-15.2.0-linux-amd64?checksum=sha256:3aab2f2668cb5a713d5770e46a777ef01c433753378702d9ae941aa2d1ee5618",
+      "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.2.0/osmosisd-15.2.0-linux-arm64?checksum=sha256:e158d30707a0ea51482237f99676223e81ce5a353966a5c83791d2662a930f35"
     },
     "cosmos_sdk_version": "0.45",
     "consensus": {
       "type": "tendermint",
-      "version": "0.34"
+      "version": "0.34.24"
     },
     "cosmwasm_version": "0.30",
     "cosmwasm_enabled": true,
@@ -186,19 +192,20 @@
         "tag": "v15.2.0",
         "height": 8732500,
         "cosmos_sdk_version": "0.45",
-        "consensus": {
-          "type": "tendermint",
-          "version": "0.34"
-        },
-        "cosmwasm_version": "0.30",
+        "recommended_version": "v15.2.0",
+        "compatible_versions": [
+          "v15.2.0",
+          "v15.1.2",
+          "v15.0.0"
+        ],
         "cosmwasm_enabled": true,
-        "ibc_go_version": "4.3.0",
+        "ibc_go_version": "4.3.1",
         "ics_enabled": [
           "ics20-1"
         ],
         "binaries": {
-          "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.2.0/osmosisd-15.2.0-linux-amd64",
-          "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.2.0/osmosisd-15.2.0-linux-arm64"
+          "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.2.0/osmosisd-15.2.0-linux-amd64?checksum=sha256:3aab2f2668cb5a713d5770e46a777ef01c433753378702d9ae941aa2d1ee5618",
+          "linux/arm64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.2.0/osmosisd-15.2.0-linux-arm64?checksum=sha256:e158d30707a0ea51482237f99676223e81ce5a353966a5c83791d2662a930f35"
         }
       }
     ]
@@ -435,6 +442,10 @@
       {
         "address": "https://osmosis-api.w3coins.io",
         "provider": "w3coins"
+      },
+      {
+        "address": "https://lcd-osmosis.whispernode.com:443",
+        "provider": "WhisperNode🤐"
       }
     ],
     "grpc": [
