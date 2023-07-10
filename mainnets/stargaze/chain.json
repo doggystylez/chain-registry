@@ -30,10 +30,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/public-awesome/stargaze",
-    "recommended_version": "v10.0.1",
+    "recommended_version": "v11.0.0",
     "compatible_versions": [
-      "v10.0.1",
-      "v10.0.0"
+      "v11.0.0"
     ],
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/public-awesome/mainnet/main/stargaze-1/genesis.tar.gz"
