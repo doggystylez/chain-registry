@@ -106,9 +106,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/osmosis-labs/osmosis",
-    "recommended_version": "v16.0.0",
+    "recommended_version": "v16.1.0",
     "compatible_versions": [
-      "v16.0.0"
+      "v16.1.0"
     ],
     "binaries": {
       "linux/amd64": "https://github.com/osmosis-labs/osmosis/releases/download/v15.2.0/osmosisd-15.2.0-linux-amd64?checksum=sha256:3aab2f2668cb5a713d5770e46a777ef01c433753378702d9ae941aa2d1ee5618",
