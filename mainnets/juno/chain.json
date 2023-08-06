@@ -40,7 +40,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/CosmosContracts/juno",
-    "recommended_version": "v15.0.0",
+    "recommended_version": "v16.0.0",
     "compatible_versions": [
       "v15.0.0"
     ],
