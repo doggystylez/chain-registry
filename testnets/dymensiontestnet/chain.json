@@ -44,7 +44,11 @@
     "persistent_peers": []
   },
   "apis": {
-    "rpc": [],
+    "rpc": [
+      {
+        "address": "https:/dymension-testnet-rpc.polkachu.com"
+      }
+    ],
     "rest": [],
     "grpc": []
   },
