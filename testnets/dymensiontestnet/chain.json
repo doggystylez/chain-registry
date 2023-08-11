@@ -46,7 +46,7 @@
   "apis": {
     "rpc": [
       {
-        "address": "https:/dymension-testnet-rpc.polkachu.com"
+        "address": "https://dymension-testnet-rpc.polkachu.com"
       }
     ],
     "rest": [],
