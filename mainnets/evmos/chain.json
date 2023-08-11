@@ -255,7 +255,7 @@
         "provider": "Interbloc"
       },
       {
-        "address": "https://rpc-cached-evmos.cosmos-spaces.cloud",
+        "address": "https://rpc-evmos.cosmos-spaces.cloud",
         "provider": "Cosmos Spaces"
       },
       {
