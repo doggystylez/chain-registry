@@ -28,15 +28,15 @@
   },
   "codebase": {
     "git_repo": "https://github.com/dymensionxyz/dymension",
-    "recommended_version": "v0.2.0-beta",
+    "recommended_version": "v1.0.2-beta",
     "compatible_versions": [
-       "v0.2.0-beta"
+       "v1.0.2-beta"
     ],
     "cosmos_sdk_version": "0.45",
     "tendermint_version": "0.34",
     "ibc_go_version": "3.4.0",
     "genesis": {
-      "genesis_url": "tbd"
+      "genesis_url": "https://raw.githubusercontent.com/dymensionxyz/testnets/main/dymension-hub/froopyland/genesis.json"
     }
   },
   "peers": {
