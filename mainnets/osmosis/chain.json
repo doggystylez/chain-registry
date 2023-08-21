@@ -106,7 +106,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/osmosis-labs/osmosis",
-    "recommended_version": "v16.1.1",
+    "recommended_version": "v17.0.0",
     "compatible_versions": [
       "v16.1.0",
       "v16.1.1"
@@ -623,10 +623,10 @@
   },
   "explorers": [
     {
-      "kind": "EZ Staking Tools",
-      "url": "https://ezstaking.tools/osmosis",
-      "tx_page": "https://ezstaking.tools/osmosis/txs/${txHash}",
-      "account_page": "https://ezstaking.tools/osmosis/account/${accountAddress}"
+      "kind": "EZ Staking",
+      "url": "https://app.ezstaking.io/osmosis",
+      "tx_page": "https://app.ezstaking.io/osmosis/txs/${txHash}",
+      "account_page": "https://app.ezstaking.io/osmosis/account/${accountAddress}"
     },
     {
       "kind": "mintscan",
