@@ -309,6 +309,10 @@
       {
         "address": "https://bitcanna-rpc.validatornode.com",
         "provider": "ValidatorNode"
+      },
+      {
+        "address": "https://bitcanna-rpc.panthea.eu",
+        "provider": "Panthea EU"
       }
     ],
     "grpc": [
@@ -413,6 +417,10 @@
       {
         "address": "https://bitcanna-api.validatornode.com",
         "provider": "ValidatorNode"
+      },
+      {
+        "address": "https://bitcanna-api.panthea.eu",
+        "provider": "Panthea EU"
       }
     ]
   },
@@ -441,8 +449,8 @@
     {
       "kind": "mintscan",
       "url": "https://www.mintscan.io/bitcanna/",
-      "tx_page": "https://www.mintscan.io/bitcanna/txs/${txHash}",
-      "account_page": "https://www.mintscan.io/bitcanna/account/${accountAddress}"
+      "tx_page": "https://www.mintscan.io/bitcanna/transactions/${txHash}",
+      "account_page": "https://www.mintscan.io/bitcanna/accounts/${accountAddress}"
     },
     {
       "kind": "atomscan",

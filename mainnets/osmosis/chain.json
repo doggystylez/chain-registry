@@ -106,7 +106,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/osmosis-labs/osmosis",
-    "recommended_version": "v17.0.0",
+    "recommended_version": "v18.0.0",
     "compatible_versions": [
       "v16.1.0",
       "v16.1.1"
@@ -631,8 +631,8 @@
     {
       "kind": "mintscan",
       "url": "https://www.mintscan.io/osmosis",
-      "tx_page": "https://www.mintscan.io/osmosis/txs/${txHash}",
-      "account_page": "https://www.mintscan.io/osmosis/account/${accountAddress}"
+      "tx_page": "https://www.mintscan.io/osmosis/transactions/${txHash}",
+      "account_page": "https://www.mintscan.io/osmosis/accounts/${accountAddress}"
     },
     {
       "kind": "ping.pub",
