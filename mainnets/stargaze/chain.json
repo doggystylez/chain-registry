@@ -44,7 +44,8 @@
         "compatible_versions": [
           "v9.1.0",
           "v9.0.0"
-        ]
+        ],
+	"next_version_name": "v10"
       },
       {
         "name": "v10",
@@ -52,7 +53,24 @@
         "compatible_versions": [
           "v10.0.1",
           "v10.0.0"
-        ]
+        ],
+        "next_version_name": "v11"
+      },
+      {
+        "name": "v11",
+        "recommended_version": "v11.0.0",
+        "compatible_versions": [
+          "v11.0.0"
+        ],
+        "next_version_name": "v12"
+      },
+      {
+        "name": "v12",
+        "recommended_version": "v12.0.0",
+        "compatible_versions": [
+          "v12.0.0"
+        ],
+        "next_version_name": ""
       }
     ]
   },

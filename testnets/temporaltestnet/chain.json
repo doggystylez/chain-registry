@@ -1,13 +1,13 @@
 {
   "$schema": "../../chain.schema.json",
   "chain_name": "temporaltestnet",
+  "chain_id": "temporal-test-1",
+  "pretty_name": "Temporal Testnet",
   "status": "live",
   "network_type": "testnet",
-  "pretty_name": "Temporal Testnet",
-  "chain_id": "temporal-test-1",
-  "bech32_prefix": "tprl",
+  "bech32_prefix": "temporal",
   "daemon_name": "temporald",
-  "node_home": "$HOME/.temporald",
+  "node_home": "$HOME/.temporal",
   "key_algos": [
     "secp256k1"
   ],
@@ -16,10 +16,7 @@
     "fee_tokens": [
       {
         "denom": "utprl",
-        "fixed_min_gas_price": 0,
-        "low_gas_price": 0.0025,
-        "average_gas_price": 0.025,
-        "high_gas_price": 0.04
+        "fixed_min_gas_price": 0
       }
     ]
   },
@@ -32,91 +29,78 @@
   },
   "codebase": {
     "git_repo": "https://github.com/temporal-zone/temporal",
-    "recommended_version": "v0.3.0",
+    "recommended_version": "v0.2.1",
     "compatible_versions": [
-      "v0.3.0"
+      "v0.2.1"
     ],
-    "cosmos_sdk_version": "0.45",
-    "consensus": {
-      "type": "tendermint",
-      "version": "0.34"
-    },
-    "cosmwasm_version": "0.30",
-    "cosmwasm_enabled": true,
     "genesis": {
-      "genesis_url": "https://github.com/temporal-zone/temporal-testnet/blob/main/genesis/testnet-genesis.json"
+      "genesis_url": "https://raw.githubusercontent.com/temporal-zone/temporal-testnet/main/genesis/genesis.json"
     },
-    "versions": []
+    "versions": [
+      {
+        "name": "v0.2.1",
+        "recommended_version": "v0.2.1",
+        "compatible_versions": [
+          "v0.2.1"
+        ]
+      }
+    ]
   },
   "peers": {
     "seeds": [
       {
-        "id": "bb197876fd952d245ef6377e3651c157e3d7ed81",
-        "address": "157.245.26.231:26656",
-        "provider": ""
+        "id": "abc3f3f7804933265ec9c40ad94f4da8e9e0017",
+        "address": "testnet-seed.rhinostake.com:24156"
       },
       {
-        "id": "7c2b9e76be5c2142c76b429d9c29e902599ceb44",
-        "address": "157.245.21.183:26656",
-        "provider": ""
-      }
-    ],
-    "persistent_peers": [
-      {
-        "id": "51084fccec1c309a415e89d39e6f0881c49493ed",
-        "address": "95.217.144.107:12556",
-        "provider": ""
-      },
-      {
-        "id": "a5c34bdd777dd418ff7152a8646fd2f31f53f8a5",
-        "address": "46.232.248.117:2000",
-        "provider": ""
+        "id": "20e1000e88125698264454a884812746c2eb4807",
+        "address": "seeds.lavenderfive.com:24156"
       }
     ]
   },
   "apis": {
     "rpc": [
       {
-        "address": "https://rpc.osmotest5.osmosis.zone/",
-        "provider": "Osmosis"
+        "address": "https://rpc.yieldmos.com/temporal-test-1",
+        "provider": "Yieldmos"
       },
       {
-        "address": "https://rpc.testnet.osl.zone/",
-        "provider": "OSL"
+        "address": "https://testnet-temporal-rpc.lavenderfive.com:443",
+        "provider": "Lavender.Five"
       }
     ],
     "rest": [
       {
-        "address": "https://lcd.osmotest5.osmosis.zone/",
-        "provider": "Osmosis"
+        "address": "https://lcd.yieldmos.com/temporal-test-1",
+        "provider": "Yieldmos"
+      },
+      {
+        "address": "https://testnet-temporal-api.lavenderfive.com:443",
+        "provider": "Lavender.Five"
       }
     ],
     "grpc": [
       {
-        "address": "https://grpc.osmotest5.osmosis.zone/",
-        "provider": "Osmosis"
+        "address": "142.132.157.153:24190",
+        "provider": "Yieldmos"
       }
     ]
   },
-  "logo_URIs": {
-    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmosis-chain-logo.png"
-  },
   "explorers": [
     {
-      "kind": "mintscan",
-      "url": "https://testnet.mintscan.io/osmosis-testnet",
-      "tx_page": "https://testnet.mintscan.io/osmosis-testnet/txs/${txHash}",
-      "account_page": "https://testnet.mintscan.io/osmosis-testnet/account/${accountAddress}"
+      "kind": "ping.pub",
+      "url": "https://testnet.explorer.thesilverfox.pro/temporal",
+      "tx_page": "https://testnet.explorer.thesilverfox.pro/temporal/tx/${txHash}"
+    },
+    {
+      "kind": "Nodes.Guru",
+      "url": "https://testnet.temporal.explorers.guru",
+      "tx_page": "https://testnet.temporal.explorers.guru/transaction/${txHash}"
     },
     {
       "kind": "ping.pub",
-      "url": "https://explorer.osmotest5.osmosis.zone",
-      "tx_page": "https://explorer.osmotest5.osmosis.zone/osmo-test-5/tx/${txHash}",
-      "account_page": "https://explorer.osmotest5.osmosis.zone/osmo-test-5/account/${accountAddress}"
+      "url": "https://testnet.ping.pub/temporal",
+      "tx_page": "https://testnet.ping.pub/temporal/tx/${txHash}"
     }
-  ],
-  "keywords": [
-    "temporal",
-    "testnet"
   ]
 }

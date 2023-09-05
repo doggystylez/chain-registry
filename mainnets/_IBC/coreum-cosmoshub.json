@@ -2,6 +2,7 @@
     "$schema": "../ibc_data.schema.json",
     "chain_1": {
       "chain_name": "coreum",
+<<<<<<< HEAD:mainnets/_IBC/coreum-cosmoshub.json
       "client_id": "07-tendermint-6",
       "connection_id": "connection-6"
     },
@@ -9,15 +10,32 @@
       "chain_name": "cosmoshub",
       "client_id": "07-tendermint-1160",
       "connection_id": "connection-883"
+=======
+      "client_id": "07-tendermint-11",
+      "connection_id": "connection-11"
+    },
+    "chain_2": {
+      "chain_name": "cosmoshub",
+      "client_id": "07-tendermint-1162",
+      "connection_id": "connection-884"
+>>>>>>> mirror:_IBC/coreum-cosmoshub.json
     },
     "channels": [
       {
         "chain_1": {
+<<<<<<< HEAD:mainnets/_IBC/coreum-cosmoshub.json
           "channel_id": "channel-5",
           "port_id": "transfer"
         },
         "chain_2": {
           "channel_id": "channel-654",
+=======
+          "channel_id": "channel-9",
+          "port_id": "transfer"
+        },
+        "chain_2": {
+          "channel_id": "channel-660",
+>>>>>>> mirror:_IBC/coreum-cosmoshub.json
           "port_id": "transfer"
         },
         "ordering": "unordered",
@@ -28,4 +46,8 @@
         }
       }
     ]
+<<<<<<< HEAD:mainnets/_IBC/coreum-cosmoshub.json
 }
+=======
+  }
+>>>>>>> mirror:_IBC/coreum-cosmoshub.json
