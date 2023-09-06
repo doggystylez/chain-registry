@@ -29,9 +29,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/temporal-zone/temporal",
-    "recommended_version": "v0.2.1",
+    "recommended_version": "v0.3.0",
     "compatible_versions": [
-      "v0.2.1"
+      "v0.3.0"
     ],
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/temporal-zone/temporal-testnet/main/genesis/genesis.json"
