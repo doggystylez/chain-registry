@@ -29,7 +29,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/ChihuahuaChain/chihuahua/",
-    "recommended_version": "v5.0.1",
+    "recommended_version": "v5.0.2",
     "compatible_versions": [
       "v5.0.1"
     ],
