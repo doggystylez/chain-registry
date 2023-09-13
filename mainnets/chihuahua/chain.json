@@ -31,7 +31,7 @@
     "git_repo": "https://github.com/ChihuahuaChain/chihuahua/",
     "recommended_version": "v5.0.2",
     "compatible_versions": [
-      "v5.0.1"
+      "v5.0.2"
     ],
     "genesis": {
       "genesis_url": "https://raw.githubusercontent.com/ChihuahuaChain/chihuahua/main/mainnet/genesis.json"
@@ -82,6 +82,17 @@
         ],
         "proposal": 52,
         "height": 8813000,
+        "cosmwasm_enabled": true,
+        "next_version_name": "v502"
+      },
+      {
+        "name": "v502",
+        "recommended_version": "v5.0.2",
+        "compatible_versions": [
+          "v5.0.2"
+        ],
+        "proposal": 53,
+        "height": 9180000,
         "cosmwasm_enabled": true,
         "next_version_name": ""
       }
