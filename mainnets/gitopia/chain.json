@@ -39,9 +39,9 @@
     "genesis": {
       "genesis_url": "https://github.com/gitopia/mainnet/raw/master/genesis.tar.gz"
     },
-    "recommended_version": "v3.2.0",
+    "recommended_version": "v3.3.0",
     "compatible_versions": [
-      "v3.1.0"
+      "v3.3.0"
     ],
     "binaries": {
      "linux/amd64": "https://server.gitopia.com/releases/Gitopia/gitopia/v3.0.1/gitopiad_3.0.1_linux_amd64.tar.gz",
