@@ -35,6 +35,7 @@
     "git_repo": "https://github.com/ChihuahuaChain/chihuahua/",
     "recommended_version": "v5.0.4",
     "compatible_versions": [
+      "v5.0.3",
       "v5.0.4"
     ],
     "cosmos_sdk_version": "v0.47.5",
@@ -104,9 +105,10 @@
       },
       {
         "name": "v503",
-        "recommended_version": "v5.0.3",
+        "recommended_version": "v5.0.4",
         "compatible_versions": [
-          "v5.0.3"
+          "v5.0.3",
+          "v5.0.4"
         ],
         "proposal": 54,
         "height": 9430000,
@@ -341,6 +343,12 @@
       "url": "https://atomscan.com/chihuahua",
       "tx_page": "https://atomscan.com/chihuahua/transactions/${txHash}",
       "account_page": "https://atomscan.com/chihuahua/accounts/${accountAddress}"
+    }
+  ],
+  "images": [
+    {
+      "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.png",
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chihuahua/images/huahua.svg"
     }
   ]
 }
