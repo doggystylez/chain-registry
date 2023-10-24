@@ -1,0 +1,94 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chain_name": "altheatestnet",
+  "chain_id": "althea_7357-1",
+  "pretty_name": "Althea Testnet",
+  "status": "live",
+  "network_type": "testnet",
+  "bech32_prefix": "althea",
+  "daemon_name": "althea",
+  "node_home": "$HOME/.althea",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "slip44": 118,
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ualthea",
+        "fixed_min_gas_price": 0
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "ualthea"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/althea-net/althea-L1",
+    "recommended_version": "v0.5.5",
+    "compatible_versions": [
+      "v0.5.5"
+    ],
+    "genesis": {
+      "genesis_url": "https://snapshots.polkachu.com/testnet-genesis/althea/genesis.json"
+    },
+    "versions": [
+      {
+        "name": "v0.5.5",
+        "recommended_version": "v0.5.5",
+        "compatible_versions": [
+          "v0.5.5"
+        ]
+      }
+    ]
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0",
+        "address": "testnet-seeds.polkachu.com:12456"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://althea-testnet-rpc.polkachu.com",
+        "provider": "Polkachu"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://althea-testnet-api.polkachu.com",
+        "provider": "Polkachu"
+      }
+    ],
+    "grpc": [
+      {
+        "address": "142.132.157.153:24190",
+        "provider": "Yieldmos"
+      }
+    ]
+  },
+  "explorers": [
+    {
+      "kind": "ping.pub",
+      "url": "https://testnet.explorer.thesilverfox.pro/temporal",
+      "tx_page": "https://testnet.explorer.thesilverfox.pro/temporal/tx/${txHash}"
+    },
+    {
+      "kind": "Nodes.Guru",
+      "url": "https://testnet.temporal.explorers.guru",
+      "tx_page": "https://testnet.temporal.explorers.guru/transaction/${txHash}"
+    },
+    {
+      "kind": "ping.pub",
+      "url": "https://testnet.ping.pub/temporal",
+      "tx_page": "https://testnet.ping.pub/temporal/tx/${txHash}"
+    }
+  ]
+}
