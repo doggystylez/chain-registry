@@ -1,7 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "chain_name": "altheatestnet",
-  "chain_id": "althea_7357-1",
+  "chain_id": "alhtea_417834-3",
   "pretty_name": "Althea Testnet",
   "status": "live",
   "network_type": "testnet",
