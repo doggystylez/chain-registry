@@ -3,21 +3,25 @@
   "chain_name": "altheatestnet",
   "assets": [
     {
-      "description": "The native staking token of the Althea Blockchain",
+      "description": "The native staking token of althea-L1",
       "denom_units": [
         {
-          "denom": "ualthea",
+          "denom": "aalthea",
           "exponent": 0
+        },
+        {
+          "denom": "nalthea",
+          "exponent": 9
         },
         {
           "denom": "althea",
           "exponent": 18
         }
       ],
-      "base": "ualthea",
-      "name": "Althea",
+      "base": "aalthea",
+      "name": "althea",
       "display": "althea",
-      "symbol": "ALTHEA",
+      "symbol": "althea",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/altheatestnet/images/althea.png"
       },
