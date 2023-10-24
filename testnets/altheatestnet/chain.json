@@ -15,7 +15,7 @@
   "fees": {
     "fee_tokens": [
       {
-        "denom": "ualthea",
+        "denom": "aalthea",
         "fixed_min_gas_price": 0
       }
     ]
@@ -23,7 +23,7 @@
   "staking": {
     "staking_tokens": [
       {
-        "denom": "ualthea"
+        "denom": "aalthea"
       }
     ]
   },
@@ -34,7 +34,7 @@
       "v0.5.5"
     ],
     "genesis": {
-      "genesis_url": "https://snapshots.polkachu.com/testnet-genesis/althea/genesis.json"
+      "genesis_url": "https://raw.githubusercontent.com/althea-net/althea-L1-docs/main/testnet-4-genesis-collected.json"
     },
     "versions": [
       {
