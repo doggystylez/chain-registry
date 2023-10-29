@@ -495,6 +495,11 @@
         "id": "1fd3c5d3bb28bef6615fdd8ab6dc6008df646a87",
         "address": "88.99.208.54:41656",
         "provider": "StakeTown"
+      },
+      {
+        "id": "10539f7c0e3ab233cf0deec9930aa8b660aeeabf",
+        "address": "osmosis-mainnet.peers.l0vd.com:12656",
+        "provider": "L0vd.com ❤️"
       }
     ]
   },
@@ -603,6 +608,10 @@
       {
         "address": "https://rpc-osmosis.nodeist.net",
         "provider": "Nodeist"
+      },
+      {
+        "address": "https://osmosis-mainnet.rpc.l0vd.com:443",
+        "provider": "L0vd.com ❤️"
       }
     ],
     "rest": [
@@ -701,6 +710,10 @@
       {
         "address": "https://api-osmosis.nodeist.net",
         "provider": "Nodeist"
+      },
+      {
+        "address": "https://osmosis-mainnet.api.l0vd.com:443",
+        "provider": "L0vd.com ❤️"
       }
     ],
     "grpc": [
@@ -759,6 +772,10 @@
       {
         "address": "https://grpc-osmosis.nodeist.net",
         "provider": "Nodeist"
+      },
+      {
+        "address": "osmosis-mainnet.grpc.l0vd.com:80",
+        "provider": "L0vd.com ❤️"
       }
     ]
   },
@@ -813,6 +830,11 @@
       "kind": "Nodeist Explorer",
       "url": "https://exp.nodeist.net/osmosis",
       "tx_page": "https://exp.nodeist.net/osmosis/tx/${txHash}"
+    },
+    {
+      "kind": "L0vd.com ❤️",
+      "url": "https://explorers.l0vd.com/osmosis-mainnet",
+      "tx_page": "https://explorers.l0vd.com/osmosis-mainnet/tx/${txHash}"
     }
   ],
   "keywords": [
