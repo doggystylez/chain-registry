@@ -106,7 +106,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/osmosis-labs/osmosis",
-    "recommended_version": "v20.1.0",
+    "recommended_version": "v20.1.2",
     "compatible_versions": [
       "v20.1.0"
     ],
