@@ -64,6 +64,7 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.svg"
   },
+  "description": "Our goal is to build open source code that can power a first class product and trading experience.",
   "peers": {
     "seeds": [
       {
@@ -100,6 +101,16 @@
         "id": "e726816f42831689eab9378d5d577f1d06d25716",
         "address": "dydx-seed-us.allnodes.me:26656",
         "provider": "Allnodes ⚡️ Nodes & Staking"
+      },
+      {
+        "id": "e726816f42831689eab9378d5d577f1d06d25716",
+        "address": "seeds.kingnodes.net:23856",
+        "provider": "Kingnodes"
+      },
+      {
+        "id": "4f20c3e303c9515051b6276aeb89c0b88ee79f8f",
+        "address": "seed.dydx.cros-nest.com:26656",
+        "provider": "Crosnest"
       }
     ],
     "persistent_peers": [
@@ -129,12 +140,20 @@
         "provider": "NodeStake"
       },
       {
+        "address": "https://rpc-dydx.cosmos-spaces.cloud",
+        "provider": "Cosmos Spaces"
+      },
+      {
         "address": "https://dydx.rpc.kjnodes.com:443",
         "provider": "kjnodes"
       },
       {
         "address": "https://dydx-rpc.publicnode.com:443",
         "provider": "Allnodes ⚡️ Nodes & Staking"
+      },
+      {
+        "address": "https://dydx-rpc.kingnodes.com:443",
+        "provider": "Kingnodes"
       }
     ],
     "rest": [
@@ -151,6 +170,10 @@
         "provider": "ecostake"
       },
       {
+        "address": "https://api-dydx.cosmos-spaces.cloud",
+        "provider": "Cosmos Spaces"
+      },
+      {
         "address": "https://api.dydx.nodestake.top:443",
         "provider": "NodeStake"
       },
@@ -161,6 +184,10 @@
       {
         "address": "https://dydx-rest.publicnode.com",
         "provider": "Allnodes ⚡️ Nodes & Staking"
+      },
+      {
+        "address": "https://dydx-rest.kingnodes.com:443",
+        "provider": "Kingnodes"
       }
     ],
     "grpc": [
@@ -181,8 +208,16 @@
         "provider": "kjnodes"
       },
       {
+        "address": "grpc-dydx.cosmos-spaces.cloud:4990",
+        "provider": "Cosmos Spaces"
+      },
+      {
         "address": "dydx-grpc.publicnode.com:443",
         "provider": "Allnodes ⚡️ Nodes & Staking"
+      },
+      {
+        "address": "https://dydx-grpc.kingnodes.com:443",
+        "provider": "Kingnodes"
       }
     ]
   },
