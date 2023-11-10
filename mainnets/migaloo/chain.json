@@ -37,9 +37,9 @@
   },
   "codebase": {
     "git_repo": "https://github.com/White-Whale-Defi-Platform/migaloo-chain",
-    "recommended_version": "v3.0.1-hotfix",
+    "recommended_version": "v3.0.2",
     "compatible_versions": [
-      "v3.0.1-hotfix"
+      "v3.0.2"
     ],
     "cosmos_sdk_version": "0.46.15",
     "ibc_go_version": "6.2.0",
