@@ -95,33 +95,21 @@
         ],
         "binaries": {
           "linux/amd64": "https://github.com/Gravity-Bridge/Gravity-Bridge/releases/download/v1.10.2/gravity-linux-amd64"
-<<<<<<< HEAD:mainnets/gravitybridge/chain.json
-        }
-=======
         },
         "next_version_name": "apollo"
->>>>>>> mirror:gravitybridge/chain.json
       },
       {
         "name": "apollo",
         "height": 9244100,
         "recommended_version": "v1.11.1",
-<<<<<<< HEAD:mainnets/gravitybridge/chain.json
-        "proposal": 200,
-=======
         "proposal": 212,
->>>>>>> mirror:gravitybridge/chain.json
         "compatible_versions": [
           "v1.11.1"
         ],
         "binaries": {
           "linux/amd64": "https://github.com/Gravity-Bridge/Gravity-Bridge/releases/download/v1.11.1/gravity-linux-amd64"
-<<<<<<< HEAD:mainnets/gravitybridge/chain.json
-        }
-=======
         },
         "next_version_name": ""
->>>>>>> mirror:gravitybridge/chain.json
       }
     ]
   },
