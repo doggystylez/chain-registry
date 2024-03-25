@@ -215,6 +215,10 @@
       {
         "address": "https://source.declab.pro:26604",
         "provider": "Decloud Nodes Lab"
+      },
+      {
+        "address": "https://rpc.source.stakeup.tech",
+        "provider": "StakeUp"
       }
     ],
     "rest": [
@@ -276,11 +280,15 @@
       },
       {
         "address": "http://source.api.staking-explorer.com",
-        "provider": "Daily $SOURCE DROP 💰"
+        "provider": "Daily DROP"
       },
       {
         "address": "https://source.declab.pro:443",
         "provider": "Decloud Nodes Lab"
+      },
+      {
+        "address": "https://rpc.source.stakeup.tech",
+        "provider": "StakeUp"
       }
     ],
     "grpc": [
