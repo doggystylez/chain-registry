@@ -37,7 +37,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/lavanet/lava",
-    "recommended_version": "v0.33.1",
+    "recommended_version": "v1.0.1",
     "compatible_versions": [
       "v0.33.1"
     ],
