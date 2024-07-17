@@ -37,7 +37,7 @@
   },
   "codebase": {
     "git_repo": "https://github.com/White-Whale-Defi-Platform/migaloo-chain",
-    "recommended_version": "v4.1.4",
+    "recommended_version": "v4.2.0",
     "compatible_versions": [
       "v4.1.3"
     ],
