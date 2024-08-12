@@ -1,6 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chain_name": "govgen",
+  "chain_type": "cosmos",
   "chain_id": "govgen-1",
   "website": "https://govgen.io/",
   "pretty_name": "GovGen",
@@ -223,6 +224,10 @@
       {
         "address": "https://rpc.govgen.posthuman.digital:443",
         "provider": "posthuman"
+      },
+      {
+        "address": "https://rpc-govgen.kewrnode.com/",
+        "provider": "Kewr Node"
       }
     ],
     "rest": [
@@ -245,6 +250,10 @@
       {
         "address": "https://rest.govgen.posthuman.digital:443",
         "provider": "posthuman"
+      },
+      {
+        "address": "https://rest-govgen.kewrnode.com/",
+        "provider": "Kewr Node"
       }
     ],
     "grpc": [
@@ -297,7 +306,10 @@
   "images": [
     {
       "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.png",
-      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.svg"
+      "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/govgen/images/govgen.svg",
+      "theme": {
+        "primary_color_hex": "#65d6d4"
+      }
     }
   ]
 }
