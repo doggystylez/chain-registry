@@ -1265,7 +1265,12 @@
             "chain_name": "solana",
             "base_denom": "So11111111111111111111111111111111111111112"
           },
-          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol.svg"
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.svg",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/sol_circle.png",
+          "theme": {
+            "circle": true,
+            "background_color_hex": "#000000"
+          }
         }
       ]
     },
@@ -1438,9 +1443,9 @@
             "chain_name": "solana",
             "base_denom": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
           },
-          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/lst.png",
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/solana/images/msol.png",
           "theme": {
-            "primary_color_hex": "#dbdbdb"
+            "primary_color_hex": "#cbebe3"
           }
         }
       ]
@@ -1713,6 +1718,53 @@
             "primary_color_hex": "#FFFFFF",
             "background_color_hex": "#FFFFFF",
             "circle": false
+          }
+        }
+      ]
+    },
+    {
+      "description": "Unicorn from Solana via Picasso IBC",
+      "denom_units": [
+        {
+          "denom": "ibc/586C150919550F6106711C7557DAAAEAB765DDF05648BAC0D96487AE90394BA1",
+          "exponent": 0,
+          "aliases": [
+            "UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z"
+          ]
+        },
+        {
+          "denom": "unicorn",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/586C150919550F6106711C7557DAAAEAB765DDF05648BAC0D96487AE90394BA1",
+      "name": "Unicorn",
+      "display": "unicorn",
+      "symbol": "UWU",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "solana",
+            "base_denom": "UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z",
+            "channel_id": "channel-1"
+          },
+          "chain": {
+            "channel_id": "channel-71",
+            "path": "transfer/channel-71/UwU8RVXB69Y6Dcju6cN2Qef6fykkq6UUNpB15rZku6Z"
+          }
+        }
+      ],
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "unicorn",
+            "base_denom": "uwunicorn"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unicorn/images/uwu.png",
+          "theme": {
+            "primary_color_hex": "#D44CE6"
           }
         }
       ]
