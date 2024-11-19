@@ -39,12 +39,10 @@
     "compatible_versions": [
       "v0.9.4"
     ],
-    "cosmos_sdk_version": "v0.50.7",
     "consensus": {
       "type": "cometbft",
       "version": "v0.38.10"
     },
-    "ibc_go_version": "v8.3.1",
     "genesis": {
       "genesis_url": "https://snapshots.polkachu.com/genesis/odin/genesis.json"
     },
@@ -55,12 +53,10 @@
         "compatible_versions": [
           "v0.7.9"
         ],
-        "cosmos_sdk_version": "v0.47.7",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
         },
-        "ibc_go_version": "v7.3.0",
         "next_version_name": "v0.7.11",
         "sdk": {
           "type": "cosmos",
@@ -79,12 +75,10 @@
         "compatible_versions": [
           "v0.7.11"
         ],
-        "cosmos_sdk_version": "v0.47.7",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
         },
-        "ibc_go_version": "v7.3.0",
         "next_version_name": "v0.7.12",
         "sdk": {
           "type": "cosmos",
@@ -103,12 +97,10 @@
         "compatible_versions": [
           "v0.7.12"
         ],
-        "cosmos_sdk_version": "v0.47.7",
         "consensus": {
           "type": "cometbft",
           "version": "v0.37.4"
         },
-        "ibc_go_version": "v7.3.0",
         "next_version_name": "v0.8.3",
         "sdk": {
           "type": "cosmos",
@@ -127,12 +119,10 @@
         "compatible_versions": [
           "v0.8.3"
         ],
-        "cosmos_sdk_version": "v0.50.7",
         "consensus": {
           "type": "cometbft",
           "version": "v0.38.7"
         },
-        "ibc_go_version": "v8.2.0",
         "next_version_name": "v0.9.3",
         "sdk": {
           "type": "cosmos",
@@ -151,12 +141,10 @@
         "compatible_versions": [
           "v0.9.4"
         ],
-        "cosmos_sdk_version": "v0.50.7",
         "consensus": {
           "type": "cometbft",
           "version": "v0.38.10"
         },
-        "ibc_go_version": "v8.3.1",
         "next_version_name": "",
         "sdk": {
           "type": "cosmos",
@@ -248,7 +236,7 @@
         "provider": "🔥STAVR🔥"
       },
       {
-        "address": "https://odin-rpc.lavenderfive.com/",
+        "address": "https://rpc.lavenderfive.com:443/odin",
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
@@ -266,7 +254,7 @@
         "provider": "🔥STAVR🔥"
       },
       {
-        "address": "https://odin-api.lavenderfive.com/",
+        "address": "https://rest.lavenderfive.com:443/odin",
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
@@ -276,7 +264,7 @@
     ],
     "grpc": [
       {
-        "address": "odin-grpc.lavenderfive.com:443",
+        "address": "odin.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
